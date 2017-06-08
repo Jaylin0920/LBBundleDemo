@@ -1,0 +1,129 @@
+body {
+
+}
+
+.dream-option-icons {
+    position: relative;
+    display: inline-block;
+    text-indent: -9999px;
+    vertical-align: middle;
+    top:-1px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    width: 0.20rem;
+    height: 0.20rem;
+    margin: 0.15rem 0.05rem 0.15rem 0.15rem;
+}
+
+.dream-option-icon-1 {
+    background-image: url('icon-1.png');
+}
+.dream-option-icon-2 {
+    background-image: url('icon-2.png');
+}
+.imgBox {
+    width: 100%;
+    min-height: 2.7rem;
+    background-image: url("./headerBG.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    margin-top: -1px;
+}
+.saveTitle {
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: white;
+    padding-left: 0.16rem;
+    padding-top: 0.95rem;
+}
+
+.steps {
+    padding-top: 0.38rem;
+    padding-left: 0.16rem;
+}
+.step-spec {
+    float: left;
+    margin-right: 0.14rem;
+}
+.dream-card {
+    padding: 0rem 0.23rem 0.33rem 0.23rem;
+    background-color: white;
+    border-radius: 0.05rem;
+    margin: -0.87rem 0.16rem 0.36rem 0.16rem;
+}
+
+.dream-option {
+    padding-top: 0.35rem;
+
+}
+
+.dream-option-title {
+    font-size: 0.17rem;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 0.1rem;
+}
+
+.dream-option-item {
+    background-color: #f5f6f9;
+    border-radius: 0.03rem;
+    height:0.5rem;
+}
+
+.dream-option-input {
+    font-size: 0.17rem;
+    color: #666666;
+    border:0;
+    outline: none;
+    background-color: inherit;
+    font-weight: 200;
+}
+.dream-option-input::-moz-placeholder {
+    color: #999999;
+    opacity: 1;
+}
+.dream-option-input:-ms-input-placeholder { color: #999999; }
+.dream-option-input::-webkit-input-placeholder  { color: #999; }
+.submit-dream {
+    padding-top: 0.23rem;
+}
+.submit-dream-btn {
+    border-radius: 0.03rem;
+    height: 0.44rem;
+    background-color: #ff484a;
+    color: white;
+    font-size: 0.17rem;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+span.step-icon {
+    display: inline-block;
+    color: #666666;
+    background-color: white;
+    border-radius: 50%;
+    width: 0.14rem;
+    height: 0.14rem;
+    font-size: 0.12rem;
+    /*margin-right: 0.07rem;*/
+    text-align: center;
+    line-height: 0.14rem;
+}
+
+span.step-text {
+    display: inline-block;
+    color: white;
+    font-size: 0.12rem;
+    font-weight: 100;
+    line-height: 0.14rem;
+    /*margin-right: 0.14rem;*/
+}
+/*.span1*/
+/*span:first-child{}*/
+/*span:last-child{}*/
+/*span:nth-child(2){}*/
